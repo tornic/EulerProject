@@ -33,7 +33,8 @@
             <ComboBoxItem Name="ep6">Euler Problem 6</ComboBoxItem>
             <ComboBoxItem Name="ep7">Euler Problem 7</ComboBoxItem>
             <ComboBoxItem Name="ep8">Euler Problem 8</ComboBoxItem>
-        </ComboBox>        
+            <ComboBoxItem Name="ep17">Euler Problem 17</ComboBoxItem>
+            </ComboBox>        
 
         <Button Name="btn" Content="Solve" HorizontalAlignment="Left" Margin="177,412,0,0" VerticalAlignment="Top" Width="181" Click="Button_Click"/>
         <Label Name="lbl2" Content="" HorizontalAlignment="Left" Height="35" Margin="177,455,0,0" VerticalAlignment="Top" Width="181" HorizontalContentAlignment="Center"/>
