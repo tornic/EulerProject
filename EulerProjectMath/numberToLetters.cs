@@ -9,7 +9,7 @@ namespace EulerProject.EulerProjectMath
     static class numberToLetters
     {
 
-        public static string letters(int number)
+        public static int letters(int number)
         {
             /* input a number, return that number written out in letters
              * 
@@ -25,11 +25,11 @@ namespace EulerProject.EulerProjectMath
 
             if (number >= 0 && number <= 19)
             {
-                return oneToNineteen[number];
+                return oneToNineteen[number].Length;
 
             }
 
-            return letters;
+            return letters.Length;
 
 
         }

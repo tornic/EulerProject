@@ -52,15 +52,15 @@ namespace EulerProject.EulerProblems
 
          */
 
-        public static string solve()
+        public static int solve()
         {
-            string numbers = "";
+            
+            int answer = 0;
 
-            for (int i = 1; i <= 19; i++)
-            {
-                numbers += EulerProjectMath.numberToLetters.letters(i);
+            
+                answer = EulerProjectMath.numberToLetters.letters(1);
 
-            }
+            
 
 
 
@@ -198,7 +198,7 @@ namespace EulerProject.EulerProblems
                 }
 
                 */
-                return numbers;
+                return answer;
         }
     }
 }
