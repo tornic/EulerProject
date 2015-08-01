@@ -13,6 +13,9 @@ namespace EulerProject.EulerProjectMath
         {
             /* input a number, return that number written out in letters
              * 
+             * can chop off the last digit of a number by doing % 10
+             * 
+             * 
              */
             string letters = "";
 

@@ -56,7 +56,7 @@ namespace EulerProject.EulerProblems
         {
             string numbers = "";
 
-            for (int i = 0; i <= 19; i++)
+            for (int i = 1; i <= 19; i++)
             {
                 numbers += EulerProjectMath.numberToLetters.letters(i);
 
