@@ -54,141 +54,151 @@ namespace EulerProject.EulerProblems
 
         public static string solve()
         {
+            string numbers = "";
 
-            List<string> numbers = new List<string>();
-            List<string> singleDigits = new List<string>();
-            List<string> doubleDigits = new List<string>();
+            for (int i = 0; i <= 19; i++)
+            {
+                numbers += EulerProjectMath.numberToLetters.letters(i);
 
-            List<string> hundreds = new List<string>();
+            }
 
-            doubleDigits.Add("eleven");
-            doubleDigits.Add("twelve");
-            doubleDigits.Add("thirteen");
-            doubleDigits.Add("fourteen");
-            doubleDigits.Add("fifteen");
-            doubleDigits.Add("sixteen");
-            doubleDigits.Add("seventeen");
-            doubleDigits.Add("eighteen");
-            doubleDigits.Add("nineteen");
 
-            string one = "one";
-            string two = "two";
-            string three = "three";
-            string four = "four";
-            string five = "five";
-            string six = "six";
-            string seven = "seven";
-            string eight = "eight";
-            string nine = "nine";
-            string ten = "ten";
 
-            string twenty = "twenty";
-            string thirty = "thirty";
-            string forty = "forty";
-            string fifty = "fifty";
-            string sixty = "sixty";
-            string seventy = "seventy";
-            string eighty = "eighty";
-            string ninety = "ninety";
+                /*
+                List<string> numbers = new List<string>();
+                List<string> singleDigits = new List<string>();
+                List<string> doubleDigits = new List<string>();
 
-            singleDigits.Add(one);
-            singleDigits.Add(two);
-            singleDigits.Add(three);
-            singleDigits.Add(four);
-            singleDigits.Add(five);
-            singleDigits.Add(six);
-            singleDigits.Add(seven);
-            singleDigits.Add(eight);
-            singleDigits.Add(nine);
+                List<string> hundreds = new List<string>();
+
+                doubleDigits.Add("eleven");
+                doubleDigits.Add("twelve");
+                doubleDigits.Add("thirteen");
+                doubleDigits.Add("fourteen");
+                doubleDigits.Add("fifteen");
+                doubleDigits.Add("sixteen");
+                doubleDigits.Add("seventeen");
+                doubleDigits.Add("eighteen");
+                doubleDigits.Add("nineteen");
+
+                string one = "one";
+                string two = "two";
+                string three = "three";
+                string four = "four";
+                string five = "five";
+                string six = "six";
+                string seven = "seven";
+                string eight = "eight";
+                string nine = "nine";
+                string ten = "ten";
+
+                string twenty = "twenty";
+                string thirty = "thirty";
+                string forty = "forty";
+                string fifty = "fifty";
+                string sixty = "sixty";
+                string seventy = "seventy";
+                string eighty = "eighty";
+                string ninety = "ninety";
+
+                singleDigits.Add(one);
+                singleDigits.Add(two);
+                singleDigits.Add(three);
+                singleDigits.Add(four);
+                singleDigits.Add(five);
+                singleDigits.Add(six);
+                singleDigits.Add(seven);
+                singleDigits.Add(eight);
+                singleDigits.Add(nine);
             
 
-            foreach (string num in singleDigits)
-            {
-                numbers.Add(num);
+                foreach (string num in singleDigits)
+                {
+                    numbers.Add(num);
 
-            }
-            numbers.Add(ten);
+                }
+                numbers.Add(ten);
 
-            numbers.Add("eleven");
-            numbers.Add("twelve");
-            numbers.Add("thirteen");
-            numbers.Add("fourteen");
-            numbers.Add("fifteen");
-            numbers.Add("sixteen");
-            numbers.Add("seventeen");
-            numbers.Add("eighteen");
-            numbers.Add("nineteen");
-            numbers.Add(twenty);
+                numbers.Add("eleven");
+                numbers.Add("twelve");
+                numbers.Add("thirteen");
+                numbers.Add("fourteen");
+                numbers.Add("fifteen");
+                numbers.Add("sixteen");
+                numbers.Add("seventeen");
+                numbers.Add("eighteen");
+                numbers.Add("nineteen");
+                numbers.Add(twenty);
 
-            foreach (string num in singleDigits)
-            {
-                numbers.Add(twenty + num);
+                foreach (string num in singleDigits)
+                {
+                    numbers.Add(twenty + num);
 
-            }
-            numbers.Add(thirty);
+                }
+                numbers.Add(thirty);
 
-            foreach (string num in singleDigits)
-            {
-                numbers.Add(thirty + num);
+                foreach (string num in singleDigits)
+                {
+                    numbers.Add(thirty + num);
 
-            }
-            numbers.Add(forty);
+                }
+                numbers.Add(forty);
 
-            foreach (string num in singleDigits)
-            {
-                numbers.Add(forty + num);
+                foreach (string num in singleDigits)
+                {
+                    numbers.Add(forty + num);
 
-            }
-            numbers.Add(fifty);
+                }
+                numbers.Add(fifty);
 
-            foreach (string num in singleDigits)
-            {
-                numbers.Add(fifty + num);
+                foreach (string num in singleDigits)
+                {
+                    numbers.Add(fifty + num);
 
-            }
-            numbers.Add(sixty);
+                }
+                numbers.Add(sixty);
 
-            foreach (string num in singleDigits)
-            {
-                numbers.Add(sixty + num);
+                foreach (string num in singleDigits)
+                {
+                    numbers.Add(sixty + num);
 
-            }
-            numbers.Add(seventy);
+                }
+                numbers.Add(seventy);
 
-            foreach (string num in singleDigits)
-            {
-                numbers.Add(seventy + num);
+                foreach (string num in singleDigits)
+                {
+                    numbers.Add(seventy + num);
 
-            }
-            numbers.Add(eighty);
+                }
+                numbers.Add(eighty);
 
-            foreach (string num in singleDigits)
-            {
-                numbers.Add(eighty + num);
+                foreach (string num in singleDigits)
+                {
+                    numbers.Add(eighty + num);
 
-            }
-            numbers.Add(ninety);
+                }
+                numbers.Add(ninety);
 
-            foreach (string num in singleDigits)
-            {
-                numbers.Add(ninety + num);
+                foreach (string num in singleDigits)
+                {
+                    numbers.Add(ninety + num);
 
-            }
+                }
 
-            foreach (string num in singleDigits)
-            {
-                hundreds.Add("100" + num);
+                foreach (string num in singleDigits)
+                {
+                    hundreds.Add("100" + num);
 
-            }
+                }
 
-            foreach (string num in doubleDigits)
-            {
-                hundreds.Add("100" + num);
+                foreach (string num in doubleDigits)
+                {
+                    hundreds.Add("100" + num);
 
-            }
+                }
 
-
-            return "string";
+                */
+                return numbers;
         }
     }
 }
