@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EulerProject.EulerProjectMath
 {
-    static class Prime
+    public static class Prime
     {
         /// <summary>
         /// Returns true if number is prime

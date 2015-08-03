@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EulerProject.EulerProjectMath
 {
-    static class numberToLetters
+    public static class numberToLetters
     {
 
         public static string letters(int number)

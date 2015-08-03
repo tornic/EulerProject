@@ -52,6 +52,8 @@
   <ItemGroup>
     <Compile Include="EulerProblem18.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="numberToLettersTest.cs" />
+    <Compile Include="PrimeTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EulerProject.csproj">
