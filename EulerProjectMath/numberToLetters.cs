@@ -6,33 +6,33 @@ using System.Threading.Tasks;
 
 namespace EulerProject.EulerProjectMath
 {
-    public static class numberToLetters
+    public static class NumberToLetters
     {
 
-        public static string letters(int number)
+        public static string Letters(int number)
         {
             // input a number, return that number written out in letters                          
             
-            string[] oneToNineteen = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven",
+            string[] OneToNineteen = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven",
                                      "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
 
-            string[] twentyToNinety = { "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" };           
+            string[] TwentyToNinety = { "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" };           
 
             if (number >= 1 && number <= 19)
             {
-                return oneToNineteen[number];
+                return OneToNineteen[number];
 
             }
 
             if (number >= 20 && number <= 99)
             {
-                return twentyToNinety[(number / 10) - 2] + letters(number % 10);
+                return TwentyToNinety[(number / 10) - 2] + Letters(number % 10);
 
             }
             
             if (number >= 100 && number <= 999)
             {
-                return letters(number / 100) + "Hundred" + And(number) + letters(number % 100);
+                return Letters(number / 100) + "Hundred" + And(number) + Letters(number % 100);
 
             }
             

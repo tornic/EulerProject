@@ -7,7 +7,7 @@ using EulerProject.EulerProblems;
 namespace EulerTests
 {
     [TestClass]
-    public class PrimeTest
+    public class PrimeTests
     {
         [TestMethod]
         public void IsNotAPrimeNumber()

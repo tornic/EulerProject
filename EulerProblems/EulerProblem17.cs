@@ -25,7 +25,7 @@ namespace EulerProject.EulerProblems
             
             for (int i = 1; i <= 1000; i++ )
             { 
-                answer += EulerProjectMath.numberToLetters.letters(i);
+                answer += EulerProjectMath.NumberToLetters.Letters(i);
 
             }
                

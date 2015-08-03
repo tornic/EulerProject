@@ -7,7 +7,7 @@ using EulerProject.EulerProjectMath;
 
 namespace EulerProject.EulerProblems
 {
-    static class EulerProblem7
+    public static class EulerProblem7
     {
         public static long solve()
         {
