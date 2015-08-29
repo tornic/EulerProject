@@ -8,6 +8,32 @@ namespace EulerTests
     [TestClass]
     public class EulerProblem18Tests
     {
+        #region getMaxRow
+
+        [TestMethod]
+        public void OneRowReturnsOne()
+        {
+            EulerProblem18.triangleValues = new int[] { 3 };
+
+            Assert.AreEqual(1, EulerProblem18.getNumberOfRows());
+        }
+
+        public void TwoRowsReturnsTwo()
+        {
+            EulerProblem18.triangleValues = new int[] { 3, 7, 4 };
+
+            Assert.AreEqual(2, EulerProblem18.getNumberOfRows());
+        }
+
+        public void ThreeRowsReturnsThree()
+        {
+            EulerProblem18.triangleValues = new int[] { 3, 7, 4, 2, 4, 6 };
+
+            Assert.AreEqual(3, EulerProblem18.getNumberOfRows());
+        }
+
+        #endregion
+
         #region getRowMaxPosition
 
         [TestMethod]
