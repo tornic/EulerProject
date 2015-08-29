@@ -79,6 +79,7 @@
     <Compile Include="EulerProblems\EulerProblem4.cs" />
     <Compile Include="EulerProblems\EulerProblem5.cs" />
     <Compile Include="EulerProblems\EulerProblem6.cs" />
+    <Compile Include="EulerProblems\EulerProblem67.cs" />
     <Compile Include="EulerProblems\EulerProblem7.cs" />
     <Compile Include="EulerProblems\EulerProblem8.cs" />
     <Compile Include="EulerProjectMath\NumberToLetters.cs" />
