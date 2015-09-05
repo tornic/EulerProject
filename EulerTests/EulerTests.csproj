@@ -62,6 +62,7 @@
     <Compile Include="EulerProblem6Tests.cs" />
     <Compile Include="EulerProblem7Tests.cs" />
     <Compile Include="EulerProblem8Tests.cs" />
+    <Compile Include="EulerProblem19Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EulerProject.csproj">
