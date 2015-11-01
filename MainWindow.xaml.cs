@@ -82,11 +82,10 @@ namespace EulerProject
                         args.Result = EulerProblem18.solve();
                         break;
                     case 10:
-<<<<<<< HEAD
-                        args.Result = EulerProblem20.solve();
-=======
                         args.Result = EulerProblem19.solve();
->>>>>>> origin/master
+                        break;
+                    case 11:
+                        args.Result = EulerProblem20.solve();
                         break;
                 }
             };
