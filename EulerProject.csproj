@@ -42,6 +42,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -75,6 +76,7 @@
     <Compile Include="EulerProblems\EulerProblem17.cs" />
     <Compile Include="EulerProblems\EulerProblem18.cs" />
     <Compile Include="EulerProblems\EulerProblem2.cs" />
+    <Compile Include="EulerProblems\EulerProblem20.cs" />
     <Compile Include="EulerProblems\EulerProblem3.cs" />
     <Compile Include="EulerProblems\EulerProblem4.cs" />
     <Compile Include="EulerProblems\EulerProblem5.cs" />

@@ -81,6 +81,9 @@ namespace EulerProject
                     case 9:
                         args.Result = EulerProblem18.solve();
                         break;
+                    case 10:
+                        args.Result = EulerProblem20.solve();
+                        break;
                 }
             };
             worker.RunWorkerCompleted += delegate(object s, RunWorkerCompletedEventArgs args)

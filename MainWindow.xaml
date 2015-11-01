@@ -35,6 +35,7 @@
                 <ComboBoxItem Name="ep8">Euler Problem 8</ComboBoxItem>
                 <ComboBoxItem Name="ep17">Euler Problem 17</ComboBoxItem>
                 <ComboBoxItem Name="ep18">Euler Problem 18</ComboBoxItem>
+                <ComboBoxItem Name="ep20">Euler Problem 20</ComboBoxItem>
             </ComboBox>
 
             <Button Name="btn" Content="Solve" HorizontalAlignment="Left" Margin="177,412,0,0" VerticalAlignment="Top" Width="181" Click="Button_Click"/>
